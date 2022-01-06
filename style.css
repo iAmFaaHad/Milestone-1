@@ -1,0 +1,40 @@
+body{
+        font-family: 'Playfair Display', serif;
+       max-width:  100%;
+       margin: 0%;
+    }
+    p{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 50px;}
+    span{
+      color:  brown;
+        font-weight: bolder;
+    }
+    section {
+        display: flex;
+    }
+    .zero{
+        width: 100%;
+        padding-left: 7%;
+    }
+    .one img{
+        width: 60%;
+        padding-left: 9.5%;
+    }
+    span{
+        color: coral;
+        font-weight: bolder;
+    }
+    .link-push{
+            font-size: 27px;
+            text-decoration: none;
+            background-image: linear-gradient(135deg, orange 60%, cyan);
+            padding: 2.5%;
+            color: rgb(0, 0, 0);
+           border-end-start-radius: 10px;
+           border: hotpink 10px;
+    }
+.centerText {
+    text-align: center; }
