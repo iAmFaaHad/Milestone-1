@@ -30,7 +30,7 @@ body{
     .link-push{
             font-size: 27px;
             text-decoration: none;
-            background-color: rgb(167, 37, 37); 
+            background-color: rgb(82, 5, 5); 
 
             padding: 2.5%;
             color: rgb(252, 238, 238);
@@ -49,6 +49,7 @@ body{
     }
 .centerText {
     text-align: center; 
+    font: bolder;
 }
 
     .container{
@@ -59,7 +60,6 @@ body{
     }
  .box{
         position: relative;
-        background: linear-gradient(orange , tomato);
         padding-right: 2%;
         padding-bottom: 2%;
         border-right: hidden 5%;
@@ -142,16 +142,50 @@ text-align: justify;
         display: flex;
         max-width: 100%;
          margin: auto;
-         padding-top: 11%;
+         padding-top: 10%;
+         padding-bottom: 15%;
     }
 .corona img{
-    max-height: 650%;
+    max-height: 700%;
     width: 750%;
-   padding-left: 10%;
+   padding-left: 20%;
    margin-left: 10%;
+   padding-right: 5%;
+}
+.corona{
+    padding-left: 4%;
+    padding-right: 2%;
+
 }
 .guide{
     padding-right: 8%;
     text-align: justify;
-padding-left: 48%;
+padding-left: 45%;
+padding-right: 9%;
+}
+.guide{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+  color: rgb(79, 185, 192);
+  padding-bottom: 0%;
+}
+#Italy{
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(212, 59, 32);
+}
+.ek{
+    background: linear-gradient(orange , tomato);
+}
+.dui{
+    background: linear-gradient(rgb(226, 90, 113) , rgb(223, 136, 121));
+}
+.thin{
+    background: linear-gradient(rgb(164, 240, 64) , rgb(255, 227, 70));
 }
