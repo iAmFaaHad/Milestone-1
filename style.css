@@ -9,7 +9,7 @@ body{
     h1{
         font-size: 50px;}
     span{
-      color:  brown;
+      color:  rgb(167, 37, 37);
         font-weight: bolder;
     }
     section {
@@ -24,17 +24,134 @@ body{
         padding-left: 9.5%;
     }
     span{
-        color: coral;
+        color: rgb(167, 37, 37);
         font-weight: bolder;
     }
     .link-push{
             font-size: 27px;
             text-decoration: none;
-            background-image: linear-gradient(135deg, orange 60%, cyan);
+            background-color: rgb(167, 37, 37); 
+
             padding: 2.5%;
-            color: rgb(0, 0, 0);
+            color: rgb(252, 238, 238);
            border-end-start-radius: 10px;
            border: hotpink 10px;
     }
+    .link-push-again{
+        font-size: 27px;
+        text-decoration: none;
+        background-color: #ebecee;            ;
+        padding: 2.5%;
+        color: rgb(0, 0, 0);
+       border-end-start-radius: 10px;
+       border: rgb(12, 10, 11) 10px;
+       border-radius: 10%;
+    }
 .centerText {
-    text-align: center; }
+    text-align: center; 
+}
+
+    .container{
+        width: auto;
+        grid: gap 50px;
+        box-sizing: border-box;
+        padding: 5%;
+    }
+ .box{
+        position: relative;
+        background: linear-gradient(orange , tomato);
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-right: hidden 5%;
+        margin: 0%;;
+        text-align: center; 
+        overflow: hidden;
+        max-height: 400%;
+        flex: 1 1 auto;
+        gap: left 30px;
+        border: 8px solid rgb(250, 247, 247);
+        border-radius: 10%;
+    }
+    .box img{
+        width: 90%;
+    }
+    .big{
+    height: 37%;
+    width: fit-content;
+    }
+    .small{
+        height: 37%;
+    }
+    .White{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+    }
+    .three{
+        display: flex;
+       max-width: 100%;
+        margin: auto;
+        padding-left: 6.5%;
+        padding-right: 5%;
+        padding-top: 10%;
+    }
+    .travel{
+        padding-right: 5%;
+    }
+.expo{
+    max-width: 100%;
+    padding-left: 5%;
+    text-align: justify;
+}
+.three{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+background-position: right;
+padding-right: 10%;
+}
+.head-colour{
+    color: rgb(167, 37, 37);
+    font-weight: bolder;}
+.size{
+    width: 98%;
+}
+.four{
+    display: flex;
+    max-width: 100%;
+     margin: auto;
+     padding-top: 10%;
+    
+}
+.four img{
+    width: fit-content;
+    height: 75%;
+    padding-bottom: 10%;
+}
+.world{
+    background-image: url(dream.jpg);
+    background-repeat: no-repeat;
+background-position: left;
+padding-right: 5%;
+padding-left: 9%;
+text-align: justify;
+}
+.vac{
+    padding-left: 3%;
+}
+    .five{
+        display: flex;
+        max-width: 100%;
+         margin: auto;
+         padding-top: 11%;
+    }
+.corona img{
+    max-height: 650%;
+    width: 750%;
+   padding-left: 10%;
+   margin-left: 10%;
+}
+.guide{
+    padding-right: 8%;
+    text-align: justify;
+padding-left: 48%;
+}
